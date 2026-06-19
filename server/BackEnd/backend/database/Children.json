@@ -1,0 +1,29 @@
+[
+    {
+        "firstName": "John",
+        "lastName": "Doe",
+        "birthdate": "2015-06-15",
+        "gender": "Male",
+        "medicalRecords": ["d6", "d7"],
+        "milestones": ["d8", "d9"],
+        "parentId": "c9"
+    },
+    {
+        "firstName": "Jane",
+        "lastName": "Smith",
+        "birthdate": "2017-09-23",
+        "gender": "Female",
+        "medicalRecords": ["da", "db"],
+        "milestones": ["dc", "dd"],
+        "parentId": "c8"
+    },
+    {
+        "firstName": "Alex",
+        "lastName": "Johnson",
+        "birthdate": "2018-12-05",
+        "gender": "Other",
+        "medicalRecords": ["de", "df"],
+        "milestones": ["e0", "e1"],
+        "parentId": "c7"
+    }
+]

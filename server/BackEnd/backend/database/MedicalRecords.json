@@ -1,0 +1,29 @@
+[
+    {
+        "childId": "ca",
+        "date": "2023-01-15",
+        "location": "Doctor Office",
+        "height": 30,
+        "weight": 20,
+        "headCircumference": 18,
+        "notes": "Routine check-up, all vaccines up to date."
+    },
+    {
+        "childId": "cb",
+        "date": "2023-02-20",
+        "location": "Hospital",
+        "height": 32,
+        "weight": 22,
+        "headCircumference": 19,
+        "notes": "Emergency visit due to fever, administered flu vaccine."
+    },
+    {
+        "childId": "cc",
+        "date": "2023-03-10",
+        "location": "Home",
+        "height": 31,
+        "weight": 21,
+        "headCircumference": 18.5,
+        "notes": "Home visit for routine vaccination."
+    }
+]
