@@ -1,0 +1,25 @@
+{
+  "name": "growthguard",
+  "version": "1.0.0",
+  "private": true,
+  "description": "GrowthGuard is a full-stack pediatric health tracking application designed to help parents and caregivers organize a child's medical information and developmental milestones in one place.",
+  "scripts": {
+    "install:all": "npm install --prefix client && npm install --prefix server",
+    "dev:client": "npm start --prefix client",
+    "dev:server": "npm run dev --prefix server",
+    "dev": "concurrently \"npm run dev:client\" \"npm run dev:server\"",
+    "build": "npm run build --prefix client",
+    "lint": "npm run lint --prefix server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/msgem0523/GrowthGuard.git"
+  },
+  "bugs": {
+    "url": "https://github.com/msgem0523/GrowthGuard/issues"
+  },
+  "homepage": "https://github.com/msgem0523/GrowthGuard#readme",
+  "devDependencies": {
+    "concurrently": "^10.0.5"
+  }
+}

@@ -83,6 +83,10 @@ GrowthGuard/
 
 ## Getting Started
 
+## Development Workflow
+
+GrowthGuard can now be installed and run from the repository root.
+
 ### Prerequisites
 
 Before running GrowthGuard locally, make sure you have:
@@ -98,20 +102,11 @@ git clone https://github.com/msgem0523/GrowthGuard.git
 cd GrowthGuard
 ```
 
-### 2. Install Client Dependencies
+### 2. Install All Dependencies
 
 ```bash
-cd client
 npm install
-```
-
-### 3. Install Server Dependencies
-
-From the repository root:
-
-```bash
-cd server
-npm install
+npm run install:all
 ```
 
 ## Environment Configuration
