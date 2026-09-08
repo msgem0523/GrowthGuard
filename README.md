@@ -83,8 +83,6 @@ GrowthGuard/
 
 ## Getting Started
 
-## Development Workflow
-
 GrowthGuard can now be installed and run from the repository root.
 
 ### Prerequisites
@@ -131,7 +129,7 @@ If `PORT` is not provided, the server defaults to port `5000`.
 
 ## Running GrowthGuard Locally
 
-The client and server currently run as separate development processes.
+GrowthGuard dependencies can be installed from the repository processes.
 
 ### Start the Client
 
@@ -170,17 +168,25 @@ The server currently exposes API routes for:
 
 ## Current Modernization
 
-GrowthGuard is undergoing an active modernization and portfolio upgrade focused on:
+GrowthGuard is undergoing an active modernization and portfolio upgrade focused on improving maintainability, developer experience, and deployment readiness.
 
-- Repository organization
-- Development tooling
-- Dependency cleanup
-- Documentation
-- Developer experience
+Recent improvements include:
+
+- Consolidated the original frontend and backend projects into a single repository
+- Standardized repository structure using `client/` and `server/`
+- Consolidated Git ignore rules at the repository root
+- Improved development scripts and project documentation
+
+Ongoing work includes:
+
+- Dependency cleanup and upgrades
+- Developer tooling improvements
 - Application maintainability
-- Future deployment readiness
+- Testing
+- Accessibility
+- Deployment readiness
 
-The modernization work is tracked through GitHub issues and pull requests.
+Modernization work is tracked through GitHub issues and pull requests.
 
 ## Author
 
